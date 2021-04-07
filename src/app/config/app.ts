@@ -1,1 +1,1 @@
-export const BASE_ENDPOINT = 'http://localhost:8090/api';
+export const BASE_ENDPOINT = 'https://backend-dot-macro-gadget-309302.ts.r.appspot.com';
