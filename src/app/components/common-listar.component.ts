@@ -4,6 +4,7 @@ import { PageEvent, MatPaginator } from '@angular/material/paginator';
 import { Generic } from '../models/generic';
 import { CommonService } from '../services/common.service';
 
+@Directive()
 export abstract class CommonListarComponent<E extends Generic, S extends CommonService<E>> implements OnInit {
 
   titulo: string;
