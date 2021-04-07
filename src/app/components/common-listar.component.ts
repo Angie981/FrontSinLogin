@@ -1,11 +1,12 @@
 import { OnInit, ViewChild } from '@angular/core';
+import { Directive, OnInit, ViewChild } from '@angular/core';
 import Swal from 'sweetalert2'
 import { PageEvent, MatPaginator } from '@angular/material/paginator';
 import { Generic } from '../models/generic';
 import { CommonService } from '../services/common.service';
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Directive()
 export abstract class CommonListarComponent<E extends Generic, S extends CommonService<E>> implements OnInit {
 
   titulo: string;
